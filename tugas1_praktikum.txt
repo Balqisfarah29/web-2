@@ -1,0 +1,44 @@
+1. Jelaskan apa yang dimaksud dengan dokumen root ? 
+Dokumen root adalah dokumen utama dalam suatu sistem atau struktur file(dokumen) yang menjadi titik awal atau referensi utama bagi dokumen lain.
+
+2. Pada apache web server, apakah dokumen root harus terletak dalam direktori
+C:\xampp\htdocs ? Jelaskan jawaban anda
+Tidak, dokumen root pada Apache Web Server tidak harus terletak dalam direktori C:\xampp\htdocs. Dokumen root dapat berada di mana saja, asalkan dapat diakses oleh Apache Web
+
+3. Jelaskan apa yang dimaksud dengan perintah git : init, clone, remote, add, commit, push
+dan checkout
+> git init: Menginisialisasi repository Git baru di dalam folder proyek.
+
+> git clone: Menyalin repository Git yang sudah ada dari remote server ke lokal maupun server jarak jauh.
+
+> git remote: Mengelola repository remote berupa server penyimpanan Git seperti GitHub, GitLab).
+
+> git commit: Menambahkan perubahan file ke dalam staging area sebelum commit, seperti git add file.txt atau git add . (semua file)
+
+> git push: Menyimpan perubahan ke dalam repository lokal dengan pesan deskriptif.
+
+> git checkout: Mengirim perubahan dari repository lokal ke repository remote.
+
+> git push: Beralih ke branch lain atau mengembalikan file ke versi sebelumnya.
+Contoh: git checkout branch-name atau git checkout file.txt
+
+4. Jelaskan perbedaan antara GitHub dan GitLab
+GitHub dan GitLab memiliki kesamaan sebagai platform berbasis Git yang digunakan untuk mengelola repository kode. Lalu perbedaanya yaitu:
+> Model Pengelolaan: GitHub Lebih fokus pada proyek open-source dan kolaborasi publik, sedangkan GitLab Lebih berorientasi pada DevOps dan menyediakan solusi lengkap ( issue tracking, security scanning) dalam satu platform.
+> Lisensi dan Biaya: GitHub, Gratis untuk proyek open-source dan fitur tambahan berbayar, sedangkan GitLab Community Edition gratis, sementara fitur premium ada di versi Enterprise.
+
+
+5. Apa bedanya variable user dengan variable system ?
+Variable User hanya berlaku untuk satu pengguna tertentu, sedangkan Variable System berlaku untuk semua pengguna di komputer.
+
+> Variable User: Digunakan untuk pengaturan pribadi pengguna, seperti direktori skrip pribadi.
+> Variable System: Digunakan untuk pengaturan global yang dibutuhkan semua pengguna, seperti lokasi program utama.
+
+6. Apa persamaan variable system dengan variable constant ?
+*Sama-sama bersifat Global.
+> Variable System berlaku untuk semua pengguna dalam sistem operasi.
+> Variable Constant berlaku di seluruh program jika didefinisikan dalam lingkup global.
+
+*Dapat Digunakan oleh Banyak Proses
+> Variable System digunakan oleh berbagai aplikasi dalam sistem.
+> Variable Constant dapat digunakan di berbagai bagian kode dalam program.
