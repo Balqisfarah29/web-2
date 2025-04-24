@@ -1,0 +1,24 @@
+1. Apa yang dimaksud dengan dokumen root?
+Folder utama tempat seluruh file website disimpan. Server web akan mengakses folder ini untuk menampilkan konten ke pengguna saat mereka mengunjungi situs.
+
+2. Pada apache web server, apakah dokumen root harus terletak dalam direktori C:\xampp\htdocs ? Jelaskan jawaban anda
+Tidak wajharus, karena C:\xampp\htdocs adalah lokasi standar untuk XAMPP, kita bisa menentukan folder lain sebagai dokument root dengan melakukan penyesuaian pada konfigurasi Apache dengan benar.
+
+3. Jelaskan apa yang dimaksud dengan perintah Git: init, clone, remote, add, commit, push, dan checkout
+>git init: Membuat repositori Git baru dalam sebuah folder/direktori.
+>git clone: Menyalin repositori dari sumber lain ke repositori yang ada di server lain.
+>git remote = Untuk mengelola repositori jarak jauh (remote repositories).
+>git add: Menambahkan file agar bisa disimpan ke dalam repositori.
+>git commit: Menyimpan perubahan yang telah ditambahkan sebelumnya, biasanya disertai pesan.
+>git push: Mengirim hasil commit dari repositori lokal ke repositori di server.
+>git checkout: Digunakan untuk berpindah antar cabang (branch) atau memulihkan versi file tertentu dalam repositori git.
+
+4. Jelaskan perbedaan antara GitHub dan GitLab?
+GitHub lebih populer sebagai platform berbagi kode dengan fitur komunitas yang besar dan menawarkan repositori publik secara gratis, Sementara GitLab menyediakan lebih banyak fitur untuk pengelolaan proyek secara komprehensif, seperti pipeline CI/CD yang terintegrasi.
+
+
+5. Apa bedanya variabel user dengan variabel sistem?
+Pengaturan yang hanya berlaku untuk pengguna tertentu dan bisa diubah. Sedangkan variabel sistem berlaku untuk seluruh sistem dan biasanya dikelola oleh sistem operasi dan tidak bisa diubah oleh pengguna.
+
+6. Apa persamaan antara variabel sistem dan variabel constant?
+Keduanya memiliki nilai yang tidak berubah-ubah selama proses berjalan dan biasanya digunakan sebagai konfigurasi yang dibutuhkan di berbagai bagian program atau sistem.
