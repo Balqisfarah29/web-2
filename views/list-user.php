@@ -64,7 +64,7 @@ $users = User::get();
                 </div>
                 <div class="sb-sidenav-footer">
                     <div class="small">Logged in as:</div>
-                    Cindi Novianti
+                    Balqis Farah
                 </div>
             </nav>
         </div>
